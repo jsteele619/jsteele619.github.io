@@ -5,11 +5,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light ">
         <a class="navbar" href="index.html"> Latitude</a>
         
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon "></span>
         </button>
           
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -34,18 +34,19 @@
         </ul>
         </div>
         </nav>
+        
+<h1><strong>Latitude vs Humidity</strong></h1>
+<br></br>
+<img src="images/lat_vs_hum.png" alt = "Test Image" >
 
-<h1><strong>Summary of the Latitude Project</strong></h1>
-<main>
-<p1>Using a random weather API, I sampled 500 locations across the globe. We gathered data on the latitude and longitude, wind speed, cloudiness, humidity, and temperature. 
-We plotted the results unto 4 seperate scatter charts using Pandas and Matplotlib. The results are below. </p1>
-
+<div> There doesn't seem to be a correlation between latitude and humidity. It seems to be slightly less humid in the southern hemisphere.
+</div>
 
 <h1><strong>Visualizations</strong></h1>
-<img src="images/lat_vs_cloud.png" width="300" height="300"  alt = "Test Image">
-<img src="images/lat_vs_hum.png" width="300" height="300"  alt = "Test Image">
-<img src="images/lat_vs_temp.png" width="300" height="300"  alt = "Test Image">
-<img src="images/lat_vs_wind.png" width="300" height="300"  alt = "Test Image">
+<img src="images/lat_vs_cloud.png" alt = "Test Image" class="img-fluid">
+<img src="images/lat_vs_hum.png" class="img-fluid" alt = "Test Image">
+<img src="images/lat_vs_temp.png" class="img-fluid"  alt = "Test Image">
+<img src="images/lat_vs_wind.png" class="img-fluid" alt = "Test Image">
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
